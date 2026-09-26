@@ -1,5 +1,9 @@
 # AuraPOS
 
+[![Tests](https://github.com/Wheatlys/AuraPOS-Showcase/actions/workflows/test.yml/badge.svg)](https://github.com/Wheatlys/AuraPOS-Showcase/actions/workflows/test.yml)
+
+**Live at [aura-pos.com](https://aura-pos.com)**
+
 **Point-of-sale and front-desk platform for nail salons.** Walk-in turn rotation, appointments, self check-in, checkout, commission payroll and loyalty, running in production across a web app, iOS and Android apps, and a Windows print agent.
 
 > **About this repository.** The AuraPOS codebase is private. This repo is a showcase: a set of real modules extracted from production with their original tests, plus write-ups of how the larger system works. Clone it and run `npm test`. There are no dependencies to install.
