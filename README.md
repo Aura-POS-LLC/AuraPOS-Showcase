@@ -172,7 +172,7 @@ AuraPOS was built by four developers who each worked across the whole product, f
 
 - **Stephen Le** · [@Wheatlys](https://github.com/Wheatlys)
 - **David Plam** · [@DPLCoding](https://github.com/DPLCoding)
-- **Michelle Lisowski** · [@MichelleLisowski](https://github.com/MichelleLisowski)
+- **Michelle Lisowski** · [@michelleLisowski](https://github.com/michelleLisowski)
 - **Ken Tran** · [@kent0678](https://github.com/kent0678)
 
 ## License
