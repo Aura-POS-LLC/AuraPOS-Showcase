@@ -8,7 +8,9 @@
 
 > **About this repository.** The AuraPOS codebase is private. This repo is a showcase: a set of real modules extracted from production with their original tests, plus write-ups of how the larger system works. Clone it and run `npm test`. There are no dependencies to install.
 
-<!-- media: add a hero GIF of the turn board here (recorded with demo data only) -->
+![Two screens of the turn board staying in sync](media/turn-board-sync.gif)
+
+*The front desk (left) assigns two walk-ins. A second screen (right) updates on its own. All names are demo data.*
 
 ## At a glance
 
@@ -25,6 +27,26 @@
 Nail salons run on walk-ins. The front desk has to decide, all day and in real time, which technician takes the next client, and those decisions affect how technicians get paid. At the same time the desk is juggling booked appointments, checkout and card payments, and end-of-period commission payroll. Most salons do this with paper, a whiteboard and a generic POS that knows nothing about turns.
 
 AuraPOS puts the whole day on one live system: every screen in the salon shows the same turn board, and a client's visit flows from check-in to turn assignment to checkout to payroll without being re-entered.
+
+## A quick tour
+
+### [Turn manager →](docs/turn-manager.md)
+
+Who takes the next walk-in, shown live on every screen. Each technician's row fills with turns as the day goes, and walk-ins move from waiting to in service.
+
+![Turn board](media/turn-board.png)
+
+### [Appointment book →](docs/appointment-book.md)
+
+The day by technician. Online bookings land here, and a block turns **Checked-in** when the client arrives at the kiosk.
+
+![Appointment book](media/appointment-book.png)
+
+### [Checkout →](docs/checkout.md)
+
+Pick the technician and the client, build the ticket, then take payment. Tips, discounts, rewards and split tickets are all a tap away.
+
+![Checkout](media/checkout.png)
 
 ## What it does
 
@@ -129,6 +151,8 @@ npm test
 ## Repository layout
 
 ```
+docs/             turn manager, appointment book and checkout, in depth
+media/            screenshots and the demo GIF (demo data only)
 packages/
   turn-manager/   live turn board engine, realtime streams, queue completion
   checkout-sync/  cross-instance event bus, single-flight ticket loading
