@@ -1,6 +1,6 @@
 # AuraPOS
 
-[![Tests](https://github.com/Wheatlys/AuraPOS-Showcase/actions/workflows/test.yml/badge.svg)](https://github.com/Wheatlys/AuraPOS-Showcase/actions/workflows/test.yml)
+[![Tests](https://github.com/Aura-POS-LLC/AuraPOS-Showcase/actions/workflows/test.yml/badge.svg)](https://github.com/Aura-POS-LLC/AuraPOS-Showcase/actions/workflows/test.yml)
 
 **Live at [aura-pos.com](https://aura-pos.com)**
 
@@ -143,7 +143,7 @@ These parts are described here but not published, because they touch payment cre
 Requires Node.js 22 or newer. There's nothing to install.
 
 ```bash
-git clone https://github.com/Wheatlys/AuraPOS-Showcase.git
+git clone https://github.com/Aura-POS-LLC/AuraPOS-Showcase.git
 cd AuraPOS-Showcase
 npm test
 ```

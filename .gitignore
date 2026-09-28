@@ -1,0 +1,26 @@
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.p8
+*.keystore
+*.jks
+*service-account*.json
+*service_account*.json
+
+# Local data, logs, dependencies, and build output
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+*.log
+node_modules/
+coverage/
+.DS_Store
